@@ -28,10 +28,10 @@ export default class Login extends React.Component{
         return(
             
             <View>
-                <Text>
+                {/*<Text>
                      Count of Dogs in Realm: {realm.objects('Dog').length}
-                </Text>
-               {/*<LoginCon {...this.props.navigation}/>*/}
+                </Text>*/}
+               <LoginCon {...this.props.navigation}/>
             </View>
         )
     }
